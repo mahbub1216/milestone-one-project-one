@@ -79,3 +79,50 @@
 }
 
 /* main part end */
+
+/* aim section start */
+
+.my-aim {
+    /* background-blend-mode: overlay; */
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/my-background.jpg");
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.my-aim-wrap {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    padding-top: 100px;
+    
+}
+
+.aim {
+    background-image: linear-gradient(to right top,rgba(0, 0, 255, 0.475),rgba(0, 128, 0, 0.415), rgba(255, 0, 0, 0.537));
+    border-radius: 10px;
+    box-sizing: 2px 2px 2px gray;
+}
+
+.aim h1 {
+    padding-top: 50px;
+}
+
+.aim p {
+    margin-top: 50px;
+}
+
+.aim button {
+    margin-top: 50px;
+    padding: 10px 15px;
+    background: gray;
+    color: #fff;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    border: none;
+}
+
+/* aim section end */
