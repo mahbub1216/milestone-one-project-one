@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header start */
+.header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/banner/banner3.png');
+    background-size: 100% 100%;
+    text-align: right;
+}
+
+.header-cont {
+    width: 30%;
+    color: #fff;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+
+.header-cont h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.header-cont p {
+    margin-top: 50px;
+}
+
+.header-cont button {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #005FAC;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+
+}
+
+/* header end */
+
+/* main part start */
+.previous-year {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 100px;
+}
+
+.p-year1 {
+    width: 50%;
+}
+
+.p-year1 img {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.p-year2 {
+    width: 50%;
+}
+
+.newdiv {
+    width: 60%;
+}
+
+.newdiv article {
+    margin: 30px 0;
+    line-height: 25px;
+}
+
+.newdiv ul {
+    line-height: 30px;
+}
+
+/* main part end */
